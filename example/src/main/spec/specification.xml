@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project cid="0" version="1.2">
+<projectproperties>
+<projectproperty id="extfolder" module="IDK"  name="Extension Module Folder" value="ext"  tooltip="Folder where the IDE will find its new modules" />
+ <openeddiagram>n1</openeddiagram></projectproperties>
+<leafpackages>
+   <path>
+    <package id="Project"/>
+    <package id="n1"/>
+   </path>
+</leafpackages>
+<objects>
+<object id="NRNode0" type="ingenias.editor.entities.NRNode">
+<mapproperties>
+<key id="Description"></key>
+<key id="_view_type">INGENIAS</key>
+</mapproperties>
+</object>
+<object id="NRNode1" type="ingenias.editor.entities.NRNode">
+<mapproperties>
+<key id="Description"></key>
+<key id="_view_type">INGENIAS</key>
+</mapproperties>
+</object>
+<object id="NRNode2" type="ingenias.editor.entities.NRNode">
+<mapproperties>
+<key id="Description"></key>
+<key id="_view_type">INGENIAS</key>
+</mapproperties>
+</object>
+</objects>
+<relationships>
+<relationship id="1" type="ingenias.editor.entities.NREdge">
+<object id="1" type="ingenias.editor.entities.NREdge">
+<mapproperties>
+<key id="CostField"></key>
+<key id="Description"></key>
+<key id="_view_type">INGENIAS</key>
+</mapproperties>
+</object>
+<role idEntity="NRNode0" class="ingenias.editor.entities.NRNode" roleName="NREdgeConnectortarget" type="ingenias.editor.entities.NREdgeConnectortargetRole" dgcid="155062001">
+<mapproperties>
+<key id="attributeToShow">0</key>
+<key id="Description"></key>
+<key id="_view_type">INGENIAS</key>
+</mapproperties>
+</role><role idEntity="NRNode2" class="ingenias.editor.entities.NRNode" roleName="NREdgeConnectorsource" type="ingenias.editor.entities.NREdgeConnectorsourceRole" dgcid="15244440">
+<mapproperties>
+<key id="attributeToShow">0</key>
+<key id="Description"></key>
+<key id="_view_type">INGENIAS</key>
+</mapproperties>
+</role></relationship>
+<relationship id="0" type="ingenias.editor.entities.NREdge">
+<object id="0" type="ingenias.editor.entities.NREdge">
+<mapproperties>
+<key id="CostField"></key>
+<key id="Description"></key>
+<key id="_view_type">INGENIAS</key>
+</mapproperties>
+</object>
+<role idEntity="NRNode0" class="ingenias.editor.entities.NRNode" roleName="NREdgeConnectortarget" type="ingenias.editor.entities.NREdgeConnectortargetRole" dgcid="155062001">
+<mapproperties>
+<key id="attributeToShow">0</key>
+<key id="Description"></key>
+<key id="_view_type">INGENIAS</key>
+</mapproperties>
+</role><role idEntity="NRNode1" class="ingenias.editor.entities.NRNode" roleName="NREdgeConnectorsource" type="ingenias.editor.entities.NREdgeConnectorsourceRole" dgcid="708328089">
+<mapproperties>
+<key id="attributeToShow">0</key>
+<key id="Description"></key>
+<key id="_view_type">INGENIAS</key>
+</mapproperties>
+</role></relationship>
+</relationships>
+<models> 
+ <model id="n1" type="ingenias.editor.models.NRGraphModelJGraph">
+<object id="n1" type="ingenias.editor.entities.NRGraphDataEntity">
+<mapproperties>
+<key id="Description">This is a sample diagram. You can draw as many nodes as you want. 
+
+You can also use markdown notation in the description of the diagram:
+
+* this is
+* a list
+</key>
+<key id="_view_type">INGENIAS</key>
+</mapproperties>
+</object>
+  <path>
+    <package id="Project"/>
+   </path>
+<gxl>
+
+	<graph>
+			
+	<node id="0" nid="node3" type="NREdge">
+		<attr name="bounds">
+			<rectangle x="239" y="139" width="66" height="17"></rectangle>		</attr>
+		<attr name="view">
+			<string>ingenias</string>
+		</attr>
+
+
+
+	<connected id="node2">
+
+
+
+
+		<attr name="labelposition">
+			<point x="500.0" y="-20.0"></point>
+		</attr>
+
+
+
+
+
+
+
+	</connected>
+	<connected id="node1">
+
+
+
+
+
+		<attr name="labelposition">
+			<point x="500.0" y="-20.0"></point>
+		</attr>
+
+
+
+
+
+
+
+	</connected>
+	</node>
+			
+	<node id="NRNode1" nid="node2" type="NRNode">
+		<attr name="bounds">
+			<rectangle x="47" y="150" width="58" height="47"></rectangle>		</attr>
+
+
+	</node>
+			
+	<node id="1" nid="node0" type="NREdge">
+		<attr name="view">
+			<string>ingenias</string>
+		</attr>
+
+		<attr name="bounds">
+			<rectangle x="312" y="86" width="53" height="15"></rectangle>		</attr>
+
+
+	<connected id="node4"><attr name="extraLabels">
+			<array>
+
+</array>
+</attr>
+
+
+
+
+
+
+	</connected>
+	<connected id="node1">
+
+
+
+
+
+
+	</connected>
+	</node>
+			
+	<node id="NRNode0" nid="node1" type="NRNode">
+		<attr name="bounds">
+			<rectangle x="440" y="97" width="58" height="47"></rectangle>		</attr>
+
+
+	</node>
+			
+	<node id="NRNode2" nid="node4" type="NRNode">
+		<attr name="bounds">
+			<rectangle x="179" y="42" width="58" height="47"></rectangle>		</attr>
+
+
+	</node><parentship>
+</parentship>
+<entityconstraints>
+</entityconstraints>
+
+
+	</graph>
+
+
+	<layout>
+			
+	<node id="node3">
+		<attr name="bounds">
+			<rectangle x="239" y="139" width="66" height="17"></rectangle>		</attr>
+		<attr name="view">
+			<string>ingenias</string>
+		</attr>
+
+
+
+	</node>
+			
+	<node id="node2">
+		<attr name="bounds">
+			<rectangle x="47" y="150" width="58" height="47"></rectangle>		</attr>
+
+
+	</node>
+			
+	<node id="node0">
+		<attr name="view">
+			<string>ingenias</string>
+		</attr>
+
+		<attr name="bounds">
+			<rectangle x="312" y="86" width="53" height="15"></rectangle>		</attr>
+
+
+	</node>
+			
+	<node id="node1">
+		<attr name="bounds">
+			<rectangle x="440" y="97" width="58" height="47"></rectangle>		</attr>
+
+
+	</node>
+			
+	<node id="node4">
+		<attr name="bounds">
+			<rectangle x="179" y="42" width="58" height="47"></rectangle>		</attr>
+
+
+	</node>
+	</layout>
+</gxl> </model>
+</models>
+</project>
