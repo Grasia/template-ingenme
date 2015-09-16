@@ -31,7 +31,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
     </developer>
   </developers>
   <properties>
-    <ingenmeversion>1.0.7</ingenmeversion>
+    <ingenmeversion>1.0.8</ingenmeversion>
     <vendor>GRASIA Research Group</vendor>
     <!-- maven does not allow to refer to developers property defined at the 
                         beginning -->
